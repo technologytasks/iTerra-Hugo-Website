@@ -24,7 +24,7 @@ heat_battery:
   body: Most energy storage debate focuses on electricity. But 50% of global final
     energy demand is heat — and heat is far cheaper to store than electrons.
     ThermoVolt stores electricity as heat in dense refractory ceramics,
-    releasing it on demand as hot air or hot water. No electrochemical
+    releasing it on demand as hot air, hot water or steam. No electrochemical
     degradation. No fire risk. No imported minerals.
 charge:
   eyebrow: Charge from Any Source
