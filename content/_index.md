@@ -42,7 +42,7 @@ materials:
   material1_name: 65% Alumina Thermal Mass
   material1_desc: Dense refractory bricks from Abbottabad alumina. Stores heat at
     up to 1,050°C with no degradation over thousands of cycles.
-  material2_name: Cordierite-Mullite Process Components
+  material2_name: Specialised Ceramics Process Components
   material2_desc: Custom-engineered ceramic for valve boxes, downcomers and
     hot-air management — replacing Inconel superalloys with locally manufactured
     ceramics.
