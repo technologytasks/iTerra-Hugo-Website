@@ -1,3 +1,14 @@
+backend:
+  name: github
+  repo: technologytasks/iTerra-Hugo-Website  # Replace with your GitHub repo
+  branch: main
+
+media_folder: "static/images"   # Where uploaded images will go
+public_folder: "/images"
+
+media_library:
+  name: uploadcare   # Decap CMS default; can also use "local"
+
 collections:
 
   # ── HOMEPAGE ───────────────────────────────────────────────
@@ -7,8 +18,14 @@ collections:
       - name: "homepage"
         label: "Homepage Content"
         file: "content/_index.md"
-        fields:
-          # ... all your homepage fields here ...
+        fields:                # Must be an array
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow text", name: "eyebrow", widget: "string" }
+              - { label: "Main title (HTML allowed)", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
 
   # ── TEAM ───────────────────────────────────────────────────
   - name: "team"
@@ -44,8 +61,7 @@ collections:
               - { label: "Capacity", name: "capacity", widget: "string" }
               - { label: "Temperature", name: "temp", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Status", name: "status", widget: "select",
-                  options: ["Field trial", "Scaling", "Development", "Roadmap"] }
+              - { label: "Status", name: "status", widget: "select", options: ["Field trial", "Scaling", "Development", "Roadmap"] }
 
   # ── PARTNERS ──────────────────────────────────────────────
   - name: "partners"
