@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: technologytasks/iTerra-Hugo-Website
+  backend:
+  name: git-gateway
   branch: main
 
 media_folder: "static/images"
