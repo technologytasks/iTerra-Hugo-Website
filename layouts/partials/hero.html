@@ -1,0 +1,25 @@
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-thermal">
+    <img src="/images/thermovolt_thermal_imaging_—_8.jpeg" alt="ThermoVolt thermal imaging"/>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">{{ .Params.hero.eyebrow }}</div>
+    <h1 class="hero-title">{{ .Params.hero.title | safeHTML }}</h1>
+    <p class="hero-sub">{{ .Params.hero.subtitle }}</p>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">{{ .Params.hero.stat1_num }}</div>
+        <div class="stat-label">{{ .Params.hero.stat1_label }}</div>
+      </div>
+      <div>
+        <div class="stat-num">{{ .Params.hero.stat2_num }}</div>
+        <div class="stat-label">{{ .Params.hero.stat2_label }}</div>
+      </div>
+      <div>
+        <div class="stat-num">{{ .Params.hero.stat3_num }}</div>
+        <div class="stat-label">{{ .Params.hero.stat3_label }}</div>
+      </div>
+    </div>
+  </div>
+</section>

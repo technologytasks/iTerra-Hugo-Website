@@ -1,0 +1,40 @@
+<section class="gateway-section" id="gateway">
+  <div class="section-eyebrow">{{ .Params.gateway.eyebrow }}</div>
+  <h2 class="section-title">{{ .Params.gateway.title | safeHTML }}</h2>
+  <div class="gateway-grid">
+    <div class="fade-up">
+      <p class="section-body" style="margin-bottom:2rem;">{{ .Params.gateway.body1 }}</p>
+      <p class="section-body">{{ .Params.gateway.body2 }}</p>
+    </div>
+    <div class="gateway-flow fade-up" style="transition-delay:0.1s">
+      <div class="flow-step">
+        <div class="flow-icon">☀️</div>
+        <div>
+          <div class="flow-label">PV Surplus Detection</div>
+          <div class="flow-text">Controller monitors rooftop PV output. When generation exceeds household consumption, <strong>surplus is routed to the thermal battery</strong> rather than lost.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-icon">⚡</div>
+        <div>
+          <div class="flow-label">Grid Tariff Awareness</div>
+          <div class="flow-text">In grid-connected installations, the controller tracks dynamic tariffs. It charges the battery <strong>during low-tariff peak-PV windows</strong> — and stops when tariffs rise.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-icon">🧱</div>
+        <div>
+          <div class="flow-label">Thermal Storage</div>
+          <div class="flow-text">Electricity drives FeCrAl heating elements embedded in the alumina core — converting electricity to heat at <strong>100% efficiency, no inverter needed</strong>.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-icon">📡</div>
+        <div>
+          <div class="flow-label">Carbon Credit Telemetry</div>
+          <div class="flow-text">4G data stream records operational data that can support MRV of LPG or gas displacement, enabling carbon-credit pathways subject to methodology requirements.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

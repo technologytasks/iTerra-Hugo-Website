@@ -1,0 +1,14 @@
+- name: "Dr. Reto Stocker"
+  role: "CEO & Co-Founder"
+  bio: "Retired ICRC Director with 28 years in Afghanistan, Pakistan and Iran. PhD in global climate change (Basel). Leads iTerra's strategy and Swiss partnership."
+  photo: "/images/dr_reto_stocker.png"
+
+- name: "Farhana Faruqi Stocker"
+  role: "Co-Founder, Social Development"
+  bio: "Social development specialist, seconded to UNAMA. Leads iTerra's community engagement and social impact strategy."
+  photo: "/images/farhana_stocker.png"
+
+- name: "Dr. Irfan Yousuf"
+  role: "Co-Founder, Carbon & Energy Policy"
+  bio: "Pakistan's leading carbon credit specialist and former NEPRA/UNDP energy advisor. Leads iTerra's regulatory and carbon credit strategy."
+  photo: "/images/dr_irfan_yousuf.png"

@@ -1,0 +1,29 @@
+<section class="market-section" id="market">
+  <div class="section-eyebrow">{{ .Params.market.eyebrow }}</div>
+  <div class="market-grid">
+    <div class="fade-up">
+      <h2 class="section-title">{{ .Params.market.title | safeHTML }}</h2>
+      <p class="section-body" style="margin-bottom:1.5rem;">{{ .Params.market.body1 }}</p>
+      <p class="section-body" style="margin-bottom:1.5rem;">{{ .Params.market.body2 }}</p>
+      <p class="section-body">{{ .Params.market.body3 }}</p>
+    </div>
+    <div class="context-stats fade-up" style="transition-delay:0.1s">
+      <div class="context-stat">
+        <span class="context-num">~70%</span>
+        <div class="context-label">Residential energy consumed as heat</div>
+      </div>
+      <div class="context-stat">
+        <span class="context-num">60%</span>
+        <div class="context-label">Renewable target by 2030</div>
+      </div>
+      <div class="context-stat">
+        <span class="context-num">$17B</span>
+        <div class="context-label">Annual fossil fuel import bill</div>
+      </div>
+      <div class="context-stat">
+        <span class="context-num">18M+</span>
+        <div class="context-label">Solar systems installed</div>
+      </div>
+    </div>
+  </div>
+</section>

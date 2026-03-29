@@ -1,0 +1,33 @@
+<section class="charge-section" id="battery">
+  <div class="section-eyebrow">{{ .Params.charge.eyebrow }}</div>
+  <h2 class="section-title">{{ .Params.charge.title | safeHTML }}</h2>
+  <p class="section-body" style="margin-bottom:3rem;">{{ .Params.charge.body | safeHTML }}</p>
+  <div class="charge-grid">
+    <div class="charge-card primary fade-up">
+      <div class="charge-icon">☀️</div>
+      <div class="charge-title">Rooftop Solar Surplus</div>
+      <div class="charge-body">Over 18 million Pakistani households have solar panels with <strong>no net metering</strong> and no way to store midday surplus. ThermoVolt charges directly from that stranded electricity — no grid connection, no DISCO contract, no inverter losses.<br/><br/>Perfect for residential and peri-urban installations where rooftop PV is already installed.</div>
+      <span class="charge-tag solar">No Grid Required</span>
+    </div>
+    <div class="charge-card secondary fade-up" style="transition-delay:0.15s">
+      <div class="charge-icon">⚡</div>
+      <div class="charge-title">Grid at Peak PV Hours</div>
+      <div class="charge-body">Pakistan has set a target of <strong>60% renewable energy by 2030</strong> — already at 53% and accelerating. High renewable penetration creates midday surplus and drives dynamic grid tariffs. Thermal batteries can charge from the grid at lowest-tariff hours, then deliver heat for free all day.<br/><br/>Enables urban tandoors, city hospitals, and hotels with no rooftop access to benefit from Pakistan's solar transition.</div>
+      <span class="charge-tag grid">Grid-Compatible</span>
+    </div>
+  </div>
+  <div style="margin-top:2rem; background:var(--graphite); border:1px solid var(--ash); padding:2rem; display:grid; grid-template-columns:1fr 1fr 1fr; gap:2rem; text-align:center;">
+    <div>
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:2.5rem; color:var(--green);">100%</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">Electricity → Heat efficiency</div>
+    </div>
+    <div>
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:2.5rem; color:var(--flame);">Zero</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">Conversion losses for thermal end uses</div>
+    </div>
+    <div>
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:2.5rem; color:var(--ember);">10,000+</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">Thermal cycles potential</div>
+    </div>
+  </div>
+</section>

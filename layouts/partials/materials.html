@@ -1,0 +1,29 @@
+<section class="materials-section" id="materials">
+  <div class="section-eyebrow">{{ .Params.materials.eyebrow }}</div>
+  <h2 class="section-title">{{ .Params.materials.title | safeHTML }}</h2>
+  <p class="section-body" style="margin-bottom:3rem;">{{ .Params.materials.body }}</p>
+  <div class="materials-two-col">
+    <div class="materials-col fade-up">
+      <div class="materials-col-title">{{ .Params.materials.material1_name }}</div>
+      <div class="materials-col-sub">Built to store energy as sensible heat at up to ~1000°C</div>
+      <p class="materials-col-body">Aluminium comprises ~8% of Earth's crust, mostly as aluminium-bearing minerals that support alumina-based refractories. For storage, alumina wins on the physics of scale: high density combined with high solid heat capacity delivers strong energy density in a simple, durable material that is abundant and geopolitically de-risked.</p>
+      <p class="materials-col-body">{{ .Params.materials.material1_desc }}</p>
+      <ul class="materials-bullets">
+        <li>High-temperature stability for bulk storage</li>
+        <li>High density + high solid heat capacity</li>
+        <li>Local, abundant, non-toxic, recyclable</li>
+      </ul>
+    </div>
+    <div class="materials-col fade-up" style="transition-delay:0.08s">
+      <div class="materials-col-title">{{ .Params.materials.material2_name }}</div>
+      <div class="materials-col-sub">Shaped components that manage airflow, mixing, and heat exchange</div>
+      <p class="materials-col-body">{{ .Params.materials.material2_desc }}</p>
+      <ul class="materials-bullets">
+        <li>Complex shapes via local ceramic forming</li>
+        <li>Excellent thermal shock / cycling resilience</li>
+        <li>Low expansion for alignment and sealing</li>
+      </ul>
+      <p class="materials-col-body" style="margin-top:1rem">Both material families are local, affordable, proven in kilns and furnaces for centuries, and recyclable at end of life.</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+<section class="field-section" id="validation">
+  <div class="section-eyebrow">{{ .Params.validation.eyebrow }}</div>
+  <h2 class="section-title">{{ .Params.validation.title | safeHTML }}</h2>
+  <p class="section-body">{{ .Params.validation.body | safeHTML }}</p>
+  <div class="field-grid">
+    <div class="charts-panel fade-up">
+      <img src="/images/thermovolt_field_trial_data_—_.jpeg" alt="ThermoVolt field trial data — 4-day thermal cycle"/>
+      <div class="charts-caption">Gujranwala field trial · Thermal mass, heat exchanger, water &amp; insulation temperatures · 4-day charge/discharge cycle</div>
+    </div>
+    <div class="feature-cards fade-up" style="transition-delay:0.1s">
+      <div style="font-size:0.95rem; color:rgba(245,240,232,0.65); line-height:1.8; margin-bottom:1.5rem;">Field trials in Gujranwala validate performance under Pakistan's demanding climate: 45°C+ ambient temperatures, dust, humidity, and voltage fluctuations.</div>
+      <div class="feature-card">
+        <div class="feature-title">🌡️ Thermal Mass Core (1,000°C)</div>
+        <div class="feature-body">Multiple charge/discharge cycles recorded. Core temperature climbs to 1,000°C+ during charging, holds heat through multi-day discharge without supplemental energy.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-title">💧 Water Delivery (60–72°C)</div>
+        <div class="feature-body">Water temperatures consistently reach ~60–72°C per cycle — sufficient for sanitation and domestic hot water. Demonstrated output: ~300 L/day from a 12 kWh / 100 L unit.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-title">♨️ Hot-Water Retention (Multi-day)</div>
+        <div class="feature-body">With the insulated 1,000°C thermal core, the 12 kWh / 100 L unit can retain useful hot water for up to ~5 days after a full charge.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-title">🧱 Insulation Performance</div>
+        <div class="feature-body">Five-layer insulation stack shows well-controlled heat gradient — minimal losses at the outer shell, confirming multi-day storage without backup fuel.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-title">📡 Remote Monitoring</div>
+        <div class="feature-body">ESP32 controller with 4G telemetry provides continuous field data. This MRV stream is designed to support carbon-credit pathways (e.g., Gold Standard / Article 6).</div>
+      </div>
+    </div>
+  </div>
+</section>

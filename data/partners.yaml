@@ -1,0 +1,11 @@
+- name: "Ismail Ceramics"
+  role: "Manufacturing Partner"
+  description: "Fourth-generation refractory company, Gujranwala. Two 1,400°C tunnel kilns, own alumina mines."
+
+- name: "REPIC"
+  role: "Co-Financing"
+  description: "Swiss platform for renewable energy, energy efficiency and climate-relevant technologies in developing countries."
+
+- name: "SDC"
+  role: "Swiss Agency for Development and Cooperation"
+  description: "Co-finances iTerra's R&D programme through REPIC."

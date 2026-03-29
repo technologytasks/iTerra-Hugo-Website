@@ -1,0 +1,177 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME   # Amjad fills this in
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+
+  # ── HOMEPAGE ─────────────────────────────────────────────────────────────
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - name: "homepage"
+        label: "Homepage Content"
+        file: "content/_index.md"
+        fields:
+
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow text", name: "eyebrow", widget: "string" }
+              - { label: "Main title (HTML allowed)", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Stat 1 number", name: "stat1_num", widget: "string" }
+              - { label: "Stat 1 label", name: "stat1_label", widget: "string" }
+              - { label: "Stat 2 number", name: "stat2_num", widget: "string" }
+              - { label: "Stat 2 label", name: "stat2_label", widget: "string" }
+              - { label: "Stat 3 number", name: "stat3_num", widget: "string" }
+              - { label: "Stat 3 label", name: "stat3_label", widget: "string" }
+
+          - label: "Marquee Items"
+            name: "marquee_items"
+            widget: "list"
+            field: { label: "Item", name: "item", widget: "string" }
+
+          - label: "Heat Battery Section"
+            name: "heat_battery"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Charge Sources Section"
+            name: "charge"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Materials Section"
+            name: "materials"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro text", name: "body", widget: "text" }
+              - { label: "Material 1 name", name: "material1_name", widget: "string" }
+              - { label: "Material 1 description", name: "material1_desc", widget: "text" }
+              - { label: "Material 2 name", name: "material2_name", widget: "string" }
+              - { label: "Material 2 description", name: "material2_desc", widget: "text" }
+
+          - label: "Field Validation Section"
+            name: "validation"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Safety Section"
+            name: "safety"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Smart Gateway Section"
+            name: "gateway"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Paragraph 1", name: "body1", widget: "text" }
+              - { label: "Paragraph 2", name: "body2", widget: "text" }
+
+          - label: "Market Section"
+            name: "market"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Paragraph 1", name: "body1", widget: "text" }
+              - { label: "Paragraph 2", name: "body2", widget: "text" }
+              - { label: "Paragraph 3", name: "body3", widget: "text" }
+
+          - label: "Compare Section"
+            name: "compare"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Team Section"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+
+          - label: "Partners Section"
+            name: "partners"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body text", name: "body", widget: "text" }
+
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Email address", name: "email", widget: "string" }
+              - { label: "Pakistan address", name: "address_pak", widget: "string" }
+              - { label: "Switzerland address", name: "address_ch", widget: "string" }
+
+  # ── TEAM ─────────────────────────────────────────────────────────────────
+  - name: "team"
+    label: "Team Members"
+    file: "data/team.yaml"
+    fields:
+      - label: "Team Members"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Role / Title", name: "role", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Photo", name: "photo", widget: "image" }
+
+  # ── PRODUCTS ──────────────────────────────────────────────────────────────
+  - name: "products"
+    label: "Products"
+    file: "data/products.yaml"
+    fields:
+      - label: "Products"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Capacity", name: "capacity", widget: "string" }
+          - { label: "Temperature", name: "temp", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Status", name: "status", widget: "select",
+              options: ["Field trial", "Scaling", "Development", "Roadmap"] }
+
+  # ── PARTNERS ──────────────────────────────────────────────────────────────
+  - name: "partners"
+    label: "Partners"
+    file: "data/partners.yaml"
+    fields:
+      - label: "Partners"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Role", name: "role", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }

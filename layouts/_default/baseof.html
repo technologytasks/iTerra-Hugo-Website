@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ .Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}"/>
+  <meta property="og:title" content="{{ .Site.Params.og_title }}"/>
+  <meta property="og:description" content="{{ .Site.Params.og_description }}"/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Barlow+Condensed:wght@400;600&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+  {{ block "main" . }}{{ end }}
+  <script src="/js/main.js"></script>
+</body>
+</html>
