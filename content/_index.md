@@ -36,7 +36,7 @@ charge:
     there is no electrochemical capacity fade in the ceramic core.
 materials:
   eyebrow: Core Materials
-  title: Two Materials. Two Functions. Both Made in Pakistan.
+  title: Two Materials. Two Functions. Both Made in Pakistan, from local raw materials
   body: ThermoVolt is built on two distinct ceramic technologies — each chosen for
     its specific role, both sourced and manufactured entirely within Pakistan.
   material1_name: 65% Alumina Thermal Mass
