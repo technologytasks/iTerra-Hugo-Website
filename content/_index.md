@@ -1,31 +1,5 @@
 ---
-hero:
-  stat1_num: 12 kWh
-  stat2_num: 1,050°C
-  stat3_num: 100%
-  eyebrow: Pakistan · Switzerland
-  stat1_label: Residential entry point
-  stat2_label: Peak storage temperature
-  stat3_label: Electricity-to-heat efficiency
-  subtitle: ThermoVolt stores electricity as heat in locally manufactured
-    refractory ceramics — from 12 kWh residential geysers to multi-MWh
-    industrial process-heat batteries.
-  title: Heat is the battery. <em>Ceramic</em> is the cell.
-marquee_items:
-  - Ceramic Thermal Storage
-  - Made in Pakistan
-  - Solar + Grid Agnostic
-  - No Lithium · No Cobalt
-  - 12 kWh → 10 MWh
-  - REPIC Co-financed
-heat_battery:
-  eyebrow: Heat Battery
-  title: A Battery — But for Heat.
-  body: Most energy storage debate focuses on electricity. But 50% of global final
-    energy demand is heat — and heat is far cheaper to store than electrons.
-    ThermoVolt stores electricity as heat in dense refractory ceramics,
-    releasing it on demand as hot air, hot water or steam. No electrochemical
-    degradation. No fire risk. No imported minerals.
+title: iTerra ThermoVolt — Pakistan's Thermal Battery
 charge:
   eyebrow: Charge from Any Source
   title: Store heat cheaply. Use heat on demand.
@@ -46,13 +20,6 @@ materials:
   material2_desc: Custom-engineered ceramic for valve boxes, downcomers and
     hot-air management — replacing Inconel superalloys with locally manufactured
     ceramics.
-validation:
-  eyebrow: Field Validation
-  title: Proven Under Real Conditions
-  body: Beta V5 field trials running across Gujranwala, Haripur and Islamabad. 12
-    household units monitoring thermal mass temperature, water temperature,
-    solar surplus capture and grid interaction in real time — with 4G telemetry
-    and GPS logging.
 safety:
   eyebrow: Safety & Maintenance
   title: Built for Daily Cycling
@@ -60,6 +27,24 @@ safety:
     operates at atmospheric pressure with inert ceramic materials. The heating
     elements are the only wear component — designed for replacement without
     specialist tools.
+partners:
+  eyebrow: Collaboration
+  title: Local Manufacturing, Swiss Partnership
+  body: Appropriate technology must be manufactured where it is deployed — using
+    local materials, local skills, and local industry.
+contact:
+  eyebrow: Partner With Us
+  title: Let's Talk
+  email: info@iterra-thermovolt.com
+  address_pak: Gujranwala / Islamabad, Pakistan
+  address_ch: Basel, Switzerland
+marquee_items:
+  - Ceramic Thermal Storage
+  - Made in Pakistan
+  - Solar + Grid Agnostic
+  - No Lithium · No Cobalt
+  - 12 kWh → 10 MWh
+  - REPIC Co-financed
 gateway:
   eyebrow: Intelligent Charging
   title: "The Smart Gateway: Charge at the Right Moment"
@@ -70,6 +55,40 @@ gateway:
     will make this intelligence increasingly valuable. The controller is the
     bridge between Pakistan's evolving electricity market and the thermal
     battery at its core.
+compare:
+  eyebrow: Market Position
+  title: Built for the Missing Middle
+  body: "Global thermal storage leaders target utility-scale plants in developed
+    markets. iTerra targets the segment nobody else is designing for: Pakistan's
+    18 million solar households and hundreds of thousands of SMEs."
+validation:
+  eyebrow: Field Validation
+  title: Proven Under Real Conditions
+  body: Beta V5 field trials running across Gujranwala, Haripur and Islamabad. 12
+    household units monitoring thermal mass temperature, water temperature,
+    solar surplus capture and grid interaction in real time — with 4G telemetry
+    and GPS logging.
+description: fdf
+hero:
+  stat1_num: 12 kWh
+  stat2_num: 1,050°C
+  stat3_num: 100%
+  eyebrow: Pakistan · Switzerland
+  stat1_label: Residential entry point
+  stat2_label: Peak storage temperature
+  stat3_label: Electricity-to-heat efficiency
+  subtitle: ThermoVolt stores electricity as heat in locally manufactured
+    refractory ceramics — from 12 kWh residential geysers to multi-MWh
+    industrial process-heat batteries.
+  title: Heat is the battery. <em>Ceramic</em> is the cell.
+heat_battery:
+  eyebrow: Heat Battery
+  title: A Battery — But for Heat.
+  body: Most energy storage debate focuses on electricity. But 50% of global final
+    energy demand is heat — and heat is far cheaper to store than electrons.
+    ThermoVolt stores electricity as heat in dense refractory ceramics,
+    releasing it on demand as hot air, hot water or steam. No electrochemical
+    degradation. No fire risk. No imported minerals.
 market:
   eyebrow: Pakistan's Energy Transition
   title: The Demand is Already There
@@ -83,25 +102,7 @@ market:
   body3: When the end use is heat, the optimal storage medium is heat. Pakistan
     doesn't need lithium, cobalt, or nickel. It needs clay, alumina, and wire —
     all domestic, all affordable, all available now.
-compare:
-  eyebrow: Market Position
-  title: Built for the Missing Middle
-  body: "Global thermal storage leaders target utility-scale plants in developed
-    markets. iTerra targets the segment nobody else is designing for: Pakistan's
-    18 million solar households and hundreds of thousands of SMEs."
 team:
   eyebrow: Founding Team
   title: Three Decades of Pakistan Experience
-partners:
-  eyebrow: Collaboration
-  title: Local Manufacturing, Swiss Partnership
-  body: Appropriate technology must be manufactured where it is deployed — using
-    local materials, local skills, and local industry.
-contact:
-  eyebrow: Partner With Us
-  title: Let's Talk
-  email: info@iterra-thermovolt.com
-  address_pak: Gujranwala / Islamabad, Pakistan
-  address_ch: Basel, Switzerland
-title: iTerra ThermoVolt — Pakistan's Thermal Battery
 ---
