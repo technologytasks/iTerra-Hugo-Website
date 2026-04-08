@@ -68,7 +68,7 @@ validation:
     household units monitoring thermal mass temperature, water temperature,
     solar surplus capture and grid interaction in real time — with 4G telemetry
     and GPS logging.
-description: fdf
+description: iTerra ThermoVolt builds high-temperature ceramic thermal batteries in Pakistan
 hero:
   stat1_num: 12 kWh
   stat2_num: 1,050°C
