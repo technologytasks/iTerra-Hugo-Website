@@ -73,7 +73,7 @@ hero:
   stat1_num: 12 kWh
   stat2_num: 1,050°C
   stat3_num: 100%
-  eyebrow: Pakistan · Switzerland
+  eyebrow: Pakistan · Switzerlands
   stat1_label: Residential entry point
   stat2_label: Peak storage temperature
   stat3_label: Electricity-to-heat efficiency
