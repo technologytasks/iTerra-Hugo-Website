@@ -79,7 +79,7 @@ hero:
   stat3_label: Electricity-to-heat efficiency
   subtitle: ThermoVolt stores electricity as heat in locally manufactured
     refractory ceramics — from 12 kWh residential geysers to multi-MWh
-    industrial process-heat batteries.
+    industrial process-heat batteriesss.
   title: Heat is the battery. <em>Ceramic</em> is the cell.
 heat_battery:
   eyebrow: Heat Battery
